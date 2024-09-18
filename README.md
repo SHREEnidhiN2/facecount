@@ -1,2 +1,2 @@
 # facecount
-This helps to count the number of faces within the frame
+This Python code uses OpenCV to perform real-time face detection via a webcam. It loads a pre-trained Haar Cascade classifier for frontal face detection and initializes the webcam. In a continuous loop, it captures frames from the webcam, converts them to grayscale, and detects faces. For each detected face, it draws a rectangle around it and counts the number of faces. The count is displayed both in the terminal and on the video frame. The loop breaks when the 'q' key is pressed. Finally, it releases the webcam and closes all OpenCV windows.
